@@ -18,13 +18,14 @@ function main(params) {
                 "ignore_certs": true
             }
         },
-        "name": "anshul",
+        "name": "Deepak-Raj",
         "product_id": 2,
         "mongo_host_ip": "138.246.236.255",
         "db": "ccs",
         "collection": "products",
         "mongo_user": "root",
         "mongo_pass": "ccs_root_Pass_7631",
+        "group":74,
         
     }
     const invoke = (actionName, params) => ow.actions.invoke({ actionName, params, blocking: true });
